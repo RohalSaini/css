@@ -533,3 +533,5 @@ footer div {
     overflow: scroll;
     justify-content: center;
 }
+
+coming soon -> other flexbox properties , grid , grid gallery, grid website design 
