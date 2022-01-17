@@ -1,1 +1,43 @@
+----------
+CSS INDEX:
+----------
+1. font-family  /* describe font-family */
+2. font-size   /* font -size is given */
+3. color   /* color of text */
+4. background /* background of div */
+5. border // border type with color is define
+6. border-radius // border -radius is given 
 
+Example: 
+
+-----------
+index.css
+----------
+.box {
+    background: red;
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospaces;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+
+---------------
+HTML DOCUMENT:
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/index.css">
+</head>
+<body>
+    <div class="box">
+        CSS/HTML
+    </div>
+</body>
+</html>
