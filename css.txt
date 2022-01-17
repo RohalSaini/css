@@ -196,4 +196,49 @@ CSS file:
   
  12. position: relative | absolute
  13. z-index: 0 | 1
+ 
+ 
+ 14. media query:
+ ---
+ CSS:
+ ---
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+
+  @media (min-width: 200px) {
+    body {
+      background-color: red;
+    }
+  }
+  @media (min-width: 400px) {
+    body {
+      background-color: yellow;
+    }
+  }
+  @media (min-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
   
+  -------------
+  HTML DOCUMENT:
+  --------------
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/index.css">
+</head>
+<body>
+
+</body>
+</html>
+
+
