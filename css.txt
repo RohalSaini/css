@@ -41,3 +41,62 @@ HTML DOCUMENT:
     </div>
 </body>
 </html>
+
+
+
+7. display -> inline-block || block;
+8. link  -> hover,active
+9. ul li -> list define
+10. width: 200px; default width
+
+----------
+index.css:
+----------
+.navigation {
+    background: blue;
+}
+
+.navigation ul li  {
+   display: block;
+   font-size: 40px;
+   text-align: center;
+   width: 200px;
+}
+
+.navigation ul li a:link{
+    background-color: cyan;
+}
+
+.navigation ul li a:visited{
+    background-color: yellow;
+}
+.navigation ul li a:hover{
+    background-color: lightgreen;
+}
+.navigation ul li a:active {
+    background-color: hotpink;
+}
+
+--------------
+HTML DOCUMENT:
+--------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/index.css">
+</head>
+<body>
+   <nav class="navigation">
+       <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+    </nav>
+</body>
+</html>
