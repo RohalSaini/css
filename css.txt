@@ -194,3 +194,6 @@ CSS file:
   }
   
   
+ 12. position: relative | absolute
+ 13. z-index: 0 | 1
+  
