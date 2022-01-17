@@ -270,11 +270,11 @@ HTML DOCUMENT:
                 </li>
             </ul>
         </nav>
-        <footer>
-            <div> I am in footer</div>
-        </footer>
     </header>
 
+    <footer>
+        <div> I am in footer</div>
+    </footer>
 </body>
 </html>
 
@@ -311,4 +311,8 @@ footer {
 footer div {
     color: inherit;
 }
+
+------------
+16. FlexBox:
+------------
 
