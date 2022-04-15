@@ -534,4 +534,20 @@ footer div {
     justify-content: center;
 }
 
-coming soon -> other flexbox properties , grid , grid gallery, grid website design ,animations,.rem em pixel, before after
+coming soon -> other flexbox properties , grid , grid gallery, grid website design ,animations,.rem em pixel, before 
+
+
+
+
+:::::   Usage of display:grid and display:flexbox
+notes-> template should be in github for showing
+
+1. Template for webisteSite
+2. LoginForm/SignUpform/AddForm/EditForm
+3. Design for 
+    Button
+    InputField
+    Selection
+    Checked
+    
+ 4. RecyclerView in html/css   
